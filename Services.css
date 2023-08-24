@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=M+PLUS+Rounded+1c:wght@100&family=PT+Serif:wght@700&family=Rajdhani:wght@300;400&display=swap');
+*{
+   margin:0;
+   padding:0; 
+}
+
+.Sidebar{
+    position:absolute;
+    background-color: rgb(201, 198, 198);
+    /* width: 434px; */
+    font-family: 'PT Serif', serif;
+    height: 120vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.Sidebar nav{
+    padding: 45px;
+}
+
+
+.Sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 40px 0px;
+}
+
+.Sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.maincontent{
+    /* background-color: blanchedalmond; */
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color:rebeccapurple ; */
+    height: 38vh;
+    width: 80vw;
+    margin: 100px auto;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Hello{
+    font-size: 65px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 45px;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.buttons{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+img{
+    max-width: 100%;
+}
+
+.devPic img{
+   height: 80vh;
+   width: 60vw;
+   margin-top: -260px;
+}
+
+.sidebarGO{
+    transform: translate(-443px, 0px);
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 160px;
+}
+@media (max-width: 1041px){
+    *{
+    }
+    .devPic{
+        display: none;
+    }
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=M+PLUS+Rounded+1c:wght@100&family=PT+Serif:wght@700&family=Rajdhani:wght@300;400&display=swap');
+*{
+   margin:0;
+   padding:0; 
+}
+
+.Sidebar{
+    position:absolute;
+    background-color: rgb(201, 198, 198);
+    /* width: 434px; */
+    font-family: 'PT Serif', serif;
+    height: 120vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.Sidebar nav{
+    padding: 45px;
+}
+
+
+.Sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 40px 0px;
+}
+
+.Sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.maincontent{
+    /* background-color: blanchedalmond; */
+    width: 85vw;
+    margin: 60px 33px;
+}
+.container{
+    display: flex;
+}
+
+
+.maincontent h1{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+
+.maincontent h2{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+.maincontent p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin:10px;
+}
+
+.skillsContainer{
+    padding: 12px;
+}
+
+.skillItem{
+  display: flex;
+  align-items: center;
+}
+
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+ width: 125px;
+ background-color: aqua;
+}
+
+.t5{
+    width: 75px;
+    background-color: chartreuse;
+}
+
+.Myprojects img{
+display: flex;
+height: 350px;
+width: 400px;
+}
+
+.Myprojects h2{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin: 40px 12px;
+}
+
+.Myprojects img:hover{
+    background:url('http://www.prelovac.com/vladimir/wp-content/uploads/2008/03/example.jpg');
+    width: 300px;
+    height: 200px;
+    position:absolute;
+    top: 400px;;
+    z-index:1
+}
+
+.Myprojects h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin: 40px 12px;
+}
+
+
+.sidebarGO{
+    transform: translate(-443px, 0px);
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 160px;
+}
+@media (max-width: 1041px){
+    *{
+    }
+    .devPic{
+        display: none;
+    }
+}
