@@ -10,7 +10,7 @@
     background-color: rgb(201, 198, 198);
     /* width: 434px; */
     font-family: 'PT Serif', serif;
-    height: 120vh;
+    height: 124vh;
     transition: transform 0.3s ease-in;
 
 }
@@ -90,32 +90,162 @@
     background-color: chartreuse;
 }
 
-.Myprojects img{
+.bottom-section1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column1 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.column2 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.column3 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
+.bottom-section2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.column1 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.column2 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.column3 img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.Myprojects h2{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin: 40px 12px;
+    text-align: center;
+}
+
+
+  .overlay1 {
+    position: absolute;
+    top: 500px;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    width: 400px;
+    height: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 1000px;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    width: 400px;
+    height: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .column1:hover .overlay1 {
+    opacity: 1;
+  }
+  .column2:hover .overlay1 {
+    opacity: 1;
+  }
+  .column3:hover .overlay1 {
+    opacity: 1;
+  }
+
+
+  .column1:hover .overlay2 {
+    opacity: 1;
+  }
+  .column2:hover .overlay2 {
+    opacity: 1;
+  }
+  .column3:hover .overlay2 {
+    opacity: 1;
+  }
+  
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+ .Myprojects img{
 display: flex;
 height: 350px;
 width: 400px;
 }
 
-.Myprojects h2{
-    font-family: 'PT Serif', serif;
-    font-weight: bold;
-    margin: 40px 12px;
-}
 
-.Myprojects img:hover{
+/* .Myprojects img:hover{
     background:url('http://www.prelovac.com/vladimir/wp-content/uploads/2008/03/example.jpg');
     width: 300px;
     height: 200px;
     position:absolute;
     top: 400px;;
     z-index:1
-}
+} */
 
 .Myprojects h4{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     margin: 40px 12px;
 }
+.Project-section1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.Project-section2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+} 
 
 
 .sidebarGO{
